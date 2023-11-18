@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(202, 249, 249, 0.61);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.head {
+    margin: 50px 100px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.head p{
+    font-size: 19px;
+    margin: 10px;
+}
+.head i{
+    align-self: self-end;
+    margin: 10px;
+}
+
+.start {
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    font-size: 18px;
+    margin: 10px;
+}
+.right{
+    display: flex;
+    margin: 10px;
+    font-size: 16px;
+    align-self: flex-end;
+}
+.right p{
+    margin: 5px;  
+}
+
+.C1{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px 0px 100px;
+}
+.C1 img{
+    height: 420px;
+    width: 420px;
+    margin: 8px;
+}
+
+.text {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.pic2{
+    margin: 50px 100px;
+    display: flex;
+}
+.pic2 img{
+    height: 96px;
+    width: 238px;
+    justify-content: space-between;
+}
+
+.infor{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.R{
+    width: 300px;
+}
+
+.end{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.end .left{
+    font-size: 14px;
+}
+.end .icon{
+    align-self: self-end;
+}

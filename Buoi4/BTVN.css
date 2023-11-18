@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 21px;
+    font-family: 'Arial';
+    color: rgb(69, 69, 69);
+}
+
+@media screen and (max-width: 768px) {
+    /* Const */
+    .const a{
+        display: none;
+    }
+
+    /* Banner */
+    #banner .content{
+        position: none;
+        text-align: center;
+    }
+
+    /* About */
+    #about .A1{
+        text-align: center;
+        width: 95vw;
+    }
+    #about .A2_1{
+        width: 80vw;
+        
+    }
+}
+
+/* Const */
+.const {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translate(0, -50%);
+    z-index: 999;
+}
+
+.const button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+/* Banner */
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(https://bootstrapmade.com/demo/templates/MyResume/assets/img/hero-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#banner .box {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.74);
+    position: absolute;
+}
+
+#banner .content {
+    position: absolute;
+    /* margin-left: 300px; */
+    left: 300px;
+    color: rgb(115, 126, 126)
+}
+
+#banner .name {
+    font-size: 80px;
+}
+
+#banner .job {
+    font-size: 50px;
+}
+
+#banner i {
+    margin-right: 15px;
+}
+
+
+/* About */
+#about {
+    width: 93vw;
+}
+
+#about .heading {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#about .A1 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#about .A1 p {
+    width: 1300px;
+    text-align: center;
+}
+
+#about .A2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+#about .A2 img {
+    width: 50vw;
+    height: 50vh;
+    margin-left: 150px;
+}
+
+#about .A2_2_1 {
+    font-size: 23px;
+}
+
+#about .A2_2_2 {
+    margin-top: 20px;
+}
+
+#about .row p {
+    margin: 24px;
+}
+
+#about .A2 .A2_2 {
+    margin-left: 20px;
+}
+
+#about .row {
+    display: flex;
+}
+
+#about .row2 {
+    margin-left: 100px;
+}
+
+/* Facts */
+#facts {
+    width: 90vw;
+    margin-left: 70px;
+}
+
+#facts .heading {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#facts .B1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#facts .B2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#facts .number {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#facts .B2 button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Skills */
+#skills {
+    width: 90vw;
+    margin-left: 70px;
+}
+
+#skills .heading {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#skills .C1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#skills .C2 {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+#skills .C2_1 {
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+#skills .C2 .text,
+.percent {
+    margin-top: 50px;
+}
+
+#skills .box {
+    position: relative;
+}
+
+#skills .box1 {
+    width: 600px;
+    height: 20px;
+    background-color: #e8e8e8;
+    position: absolute;
+}
+
+#skills .box2 {
+    width: 540px;
+    height: 20px;
+    background-color: #353535;
+    position: absolute;
+
+}
+
+#skills .box2_1 {
+    width: 600px;
+}
+
+#skills .box2_3 {
+    width: 450px;
+}
+
+#skills .box2_4 {
+    width: 480px;
+}
+
+#skills .box2_6 {
+    width: 300px;
+}
+
+/* Services */
+#services {
+    width: 90vw;
+    margin-left: 70px;
+}
+
+#services .heading {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#services .D1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#services .D2,
+.D3 {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+#services ._D2,
+._D3 {
+    border: 2px solid#d0d0d0;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+#services .icon {
+    position: relative;
+}
+
+#services svg {
+    position: relative;
+    right: -10px;
+
+}
+
+#services .icon i {
+    position: relative;
+    top: -40px;
+    right: 60px;
+}
+
+/* Contact */
+#contact {
+    width: 80vw;
+    margin-left: 105px;
+}
+
+#contact .heading {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#contact .E {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+#contact .E1_1,
+.E1_2,
+.E1_3,
+.E2_1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+#contact button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+#contact ._E {
+    width: max-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#contact ._E1 {
+    border-radius: 4px;
+    border: 2px solid #999;
+    width: 100%;
+}
+
+#contact ._E2,
+._E3 {
+    border-radius: 3px;
+    width: 98%;
+    border: 2px solid#999;
+}
+
+#contact ._E3 {
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+/* End */
+.end {
+    height: 200px;
+    margin-top: 30px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #d7d7d7;
+}
