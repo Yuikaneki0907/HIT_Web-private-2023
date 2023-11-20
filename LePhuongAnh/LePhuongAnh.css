@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'arial';
+}
+.header{
+    width: 100vw;
+    height: 60px;
+    background-color: #336699;
+    position: relative;
+    display: flex;
+}
+
+.img{
+    width: 90px;
+    height: 60px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.header p{
+    margin-left: 200px;
+    padding: 5px;
+    background-color: white;
+}
+nav{
+    width: max-content;
+    padding: 3px;
+    position: fixed;
+}
+.content .b1,.b2{
+    display: flex;
+    margin-left: 100px;
+    
+}
