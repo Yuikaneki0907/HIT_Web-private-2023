@@ -14,10 +14,11 @@ body {
     color: rgb(69, 69, 69);
 }
 
-/* Heading */
-.heading1{
+/* Start */
+.start {
     display: none;
 }
+
 /* Const */
 .const {
     display: flex;
@@ -75,7 +76,7 @@ body {
     margin-right: 15px;
 }
 
-#banner .link1{
+#banner .link1 {
     display: none;
 }
 
