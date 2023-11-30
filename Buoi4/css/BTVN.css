@@ -14,29 +14,10 @@ body {
     color: rgb(69, 69, 69);
 }
 
-@media screen and (max-width: 768px) {
-    /* Const */
-    .const a{
-        display: none;
-    }
-
-    /* Banner */
-    #banner .content{
-        position: none;
-        text-align: center;
-    }
-
-    /* About */
-    #about .A1{
-        text-align: center;
-        width: 95vw;
-    }
-    #about .A2_1{
-        width: 80vw;
-        
-    }
+/* Heading */
+.heading1{
+    display: none;
 }
-
 /* Const */
 .const {
     display: flex;
@@ -92,6 +73,10 @@ body {
 
 #banner i {
     margin-right: 15px;
+}
+
+#banner .link1{
+    display: none;
 }
 
 
