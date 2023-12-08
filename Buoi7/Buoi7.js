@@ -33,7 +33,19 @@ if (chon == 2) {
 if (chon == 3) {
     let s = prompt("Nhap chuoi: ");
     s = s.trimEnd();
-    console.log(s.length - (s.lastIndexOf(" ") + 1));
+    let dem = 0;
+    for (let i = s.length - 1; i >= 0; i--) {
+        let a = s.charCodeAt(i);
+        if ((a >= 65 && a <= 90) || (a > 97 && a < 122)) {
+            dem++;
+        } else if (a == 32) {
+            break;
+        } else {
+            continue;
+        }
+    }
+    console.log(dem);
+    // console.log(s.length - (s.lastIndexOf(" ") + 1));
 }
 
 if (chon == 4) {
